@@ -20,9 +20,8 @@ Before we start, you may notice three text files open in the code/text editor on
 
 Under the tab that says `>_ Terminal`, is a window with a `$` prompt. This is the terminal window where you can type commands. Let's start by exploring your workspace. Your workspace contains folders (ofter called directories) and files, in the same way as your computer does. Directories can be nested in other directories, just as you have folders stored in other folders on your computer.
 
-<details>
-<summary>## The `ls` and `cd` Terminal Commands</summary>
-<br>
+## The `ls` and `cd` Terminal Commands
+
 Let's see what files are in the directory in which you are currently positioned (your current working directory). Type in `ls` for **list** next to the `$`, which is your **terminal prompt**. This will list out all the files (including directories) that are the direct children of your current directory.
 
 When you are using the command line, you can see only the files in this directory; you cannot see or access files which are inside of any other directories.
@@ -59,11 +58,6 @@ cd ..
 ```
 
 The two dots mean go up one directory level higher. If you type in `pwd` again you should now see `/root/sandbox/apt1`, meaning that we are in the `apt1` directory.
-</details>
-
-
-
-
 
 
 ## The `mv` Command
